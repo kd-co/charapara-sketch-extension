@@ -1,18 +1,36 @@
 {
+  "author": "Anoop Sethumadhavan",
+  "homepage": "https://www.charapara.in",
+  "version": "1.0",
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Single line",
+      "identifier": "single-line",
+      "script": "./my-command.js",
+      "handler": "generateSingleLine"
+    },
+    {
+      "name": "Single paragraph",
+      "identifier": "paragraph",
+      "script": "./my-command.js",
+      "handler": "generateParagraph"
+    },
+    {
+      "name": "Multiple paragraphs",
+      "identifier": "multiple-paragraph",
+      "script": "./my-command.js",
+      "handler": "generateMultipleParagraph"
     }
   ],
   "menu": {
-    "title": "charapara",
+    "title": "Charapara",
     "items": [
-      "my-command-identifier"
+      "single-line",
+      "paragraph",
+      "multiple-paragraph"
     ]
   }
 }
