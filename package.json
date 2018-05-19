@@ -1,7 +1,7 @@
 {
   "name": "Charapara",
   "description": "Charapara, an initiative by Kerala Designers Collaborative (KDCo), is a dummy text generator for Malayalam",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "engines": {
     "sketch": ">=3.0"
   },
