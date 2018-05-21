@@ -1,0 +1,40 @@
+{
+  "author": "Anoop Sethumadhavan",
+  "homepage": "https://www.charapara.in",
+  "version": "1.0",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "Single line",
+      "identifier": "single-line",
+      "script": "my-command.js",
+      "handler": "generateSingleLine"
+    },
+    {
+      "name": "Single paragraph",
+      "identifier": "paragraph",
+      "script": "my-command.js",
+      "handler": "generateParagraph"
+    },
+    {
+      "name": "Multiple paragraphs",
+      "identifier": "multiple-paragraph",
+      "script": "my-command.js",
+      "handler": "generateMultipleParagraph"
+    }
+  ],
+  "menu": {
+    "title": "Charapara",
+    "items": [
+      "single-line",
+      "paragraph",
+      "multiple-paragraph"
+    ]
+  },
+  "description": "Charapara, an initiative by Kerala Designers Collaborative (KDCo), is a dummy text generator for Malayalam",
+  "name": "charapara",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/kd-co/charapara-sketch-extension/master/.appcast.xml"
+}
