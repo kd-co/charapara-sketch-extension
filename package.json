@@ -12,7 +12,7 @@
   "skpm": {
     "name": "charapara",
     "manifest": "src/manifest.json",
-    "main": "plugin.sketchplugin",
+    "main": "charapara.sketchplugin",
     "assets": [
       "assets/**/*"
     ]
