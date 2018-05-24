@@ -3,6 +3,7 @@
 Charapara, an initiative by Kerala Designers Collaborative (KDCo), is a dummy text generator for Malayalam. This repository hosts the Sketch App plugin developed for Charapara.
 
 ## How to install?
+![alt text](https://raw.githubusercontent.com/kd-co/charapara-sketch-extension/master/assets/release.png "")
 1. Go the latest releases link: https://github.com/kd-co/charapara-sketch-extension/releases/tag/v2.2.0
 2. Download the file, double click on 'charapara.sketchplugin' file to install the extension
 
