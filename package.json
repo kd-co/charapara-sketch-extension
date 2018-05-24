@@ -10,7 +10,7 @@
     "url": "git+https://github.com/kd-co/charapara-sketch-extension.git"
   },
   "skpm": {
-    "name": "charapara",
+    "name": "Charapara",
     "manifest": "src/manifest.json",
     "main": "charapara.sketchplugin",
     "assets": [
