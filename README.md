@@ -9,5 +9,5 @@ Charapara, an initiative by Kerala Designers Collaborative (KDCo), is a dummy te
 
 ## How to use the plugin?
 1. Select the text layer you want to Charaparize.
-2. Goto Plugin -> Charapara
+2. Goto Plugins -> Charapara
 3. Select the quantity of text to be added and you're done!
